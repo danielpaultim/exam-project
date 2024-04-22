@@ -131,7 +131,7 @@ const GitHubRepo = () => {
             className="flex gap-4 text-zinc-100 m-5 "
             first={first}
             rows={rows}
-            totalRecords={6}
+            totalRecords={7}
             onPageChange={(e) => {
               setFirst(e.first);
               setRows(e.rows);
