@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: maroon;
+}
+
+div{
+  font-family: Exo 2;
+}
+
+.tr-classNAme {
+  @apply flex flex-col mb-4
+}
