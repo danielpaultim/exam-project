@@ -13,8 +13,8 @@ const NotFound = () => {
             Sorry, we couldn't find this page.
           </p>
           <Link
-           to="/"
-            class="px-8 py-4 text-xl font-semibold rounded bg-purple-600 text-gray-50 hover:text-gray-200"
+            to="/"
+            class="px-8 py-4 text-xl font-semibold rounded bg-maroon text-white hover:text-gray-200"
           >
             Back to home
           </Link>
@@ -24,4 +24,4 @@ const NotFound = () => {
   );
 };
 
-export default NotFound
+export default NotFound;
